@@ -1,0 +1,58 @@
+<html>
+<head>
+  <title>SPARK</title>
+  <link rel="icon" href="https://www.thesparksfoundationsingapore.org/images/logo_small.png" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<link rel="stylesheet" href="spark.css"> 
+</head>
+<body>
+  <div class="topnav1">
+<a href="https://www.thesparksfoundationsingapore.org/about/vision-mission-and-values">About Us</a>
+    <a href="contact.html" target="_blank">Contact Us</a>
+       <a href="index.html" target="_blank">Home</a>
+</div>
+<div style="padding-left:16px">
+  <a style="color:white;font-size: 50px">Spark Foundation</a>
+</div>
+<section id="contact">
+      <div class="section-content">
+        <h1 class="section-header">Get in <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Touch with us</span></h1>
+      </div>
+      <div class="contact-section">
+      <div class="container">
+        <form>
+          <div class="col-md-6 form-line">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail">Email</label>
+                <input type="email" class="form-control" id="email">
+              </div>  
+              <div class="form-group">
+                <label for="phone">Phone No</label>
+                <input type="tel" class="form-control" id="phone">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for ="description"> Message</label>
+                <textarea  class="form-control" id="description"></textarea>
+              </div>
+              <div>
+                <button type="submit" class="btn btn-default submit" onclick="message()">Send Message</button>
+              <script type="text/javascript">
+                function message()
+                {
+                  var test=" We got your message Have a nice day";
+                  alert(test);
+                }</script> 
+              </div>
+          </div>
+        </form>
+      </div>
+    </section>
+</body>
+</html>

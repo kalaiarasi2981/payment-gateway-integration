@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+   background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+.topnav1 a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+label{
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: normal;
+}
+.topnav1 a:hover {
+  background-color: blue;
+  color: black;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  margin-bottom: 1em;  
+  margin-top: 100px;
+}
+  h6,h3{
+  font-family: "Times New Roman", Times, serif;
+  color:  white;
+  margin-bottom: 1em;
+  margin-top: 50px;
+}
+.container { 
+  height: 200px;
+  position: relative;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.login {
+    background-color: #fff;
+    width: 40%;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding: 20px;
+    border-left: 5px solid #009688;
+    box-shadow: 0px 0px 0px 0px #3f51b5;
+}
+.login>.row>h2 {
+    margin: auto;
+}
+.btn-form {
+    width: 100%;
+    margin-top: 20px;
+}
+body{
+    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+}
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
